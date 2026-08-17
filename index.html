@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Linijski, blok i plutajući HTML elementi</title>
+    </head>
+    <body bgcolor="Beige"><font size="5">
+        <h1 align="center">Linijski, blok i plutajući HTML elementi</h1>
+        <hr /><br />
+        Web brauzeri na ovaj način <b>sadržaj linijskih elemenata</b> raspoređuju u odnosu na susedni tekst.
+        <br /><br /><hr /><br />
+        Web brauzeri na ovaj način <h4>sadržaj blok elemenata</h4> raspoređuju u odnosu na susedni tekst.
+        <br /><br /><hr /><br />
+		Ovo je linijski element poravnat vertikalno po dnu <img align="bottom" src="https://lh3.googleusercontent.com/d/15C8swW1hqTjRVDqUanKZsFVrL5nKh1ed" height="200" /> u odnosu na susedni tekst.
+        <br /><br /><hr /><br />
+		Ovo je linijski element poravnat vertikalno po sredini <img align="middle" src="https://lh3.googleusercontent.com/d/15C8swW1hqTjRVDqUanKZsFVrL5nKh1ed" height="200" /> u odnosu na susedni tekst.
+        <br /><br /><hr /><br />
+		Ovo je linijski element poravnat vertikalno po vrhu <img align="top" src="https://lh3.googleusercontent.com/d/15C8swW1hqTjRVDqUanKZsFVrL5nKh1ed" height="200" /> u odnosu na susedni tekst.
+		<br /><br /><hr /><br />
+        Ovako se linijski element pretvoren u blok element <div><img src="https://lh3.googleusercontent.com/d/15C8swW1hqTjRVDqUanKZsFVrL5nKh1ed" height="200" /></div>
+        raspoređuje u odnosu na susedni tekst.
+        <br /><br /><hr /><br />
+		Ovako se blok element
+		<table width="212" border="2" bgcolor="Tan" cellpadding="5">
+		    <tr><th></th><th>Kol 1</th><th>Kol 2</th></tr>
+		    <tr><th>Red 1</th><td></td><td></td></tr>
+			<tr><th>Red 2</th><td></td><td></td></tr>
+		</table>
+		raspoređuje u odnosu na susedni tekst.
+        <br /><br /><hr /><br />
+        Ovako se blok element pretvoren u linijski element (poravnat vertikalno po sredini)
+		<iframe srcdoc='<table width="212" border="2" bgcolor="Tan" cellpadding="5">
+		                    <tr><th></th><th>Kol 1</th><th>Kol 2</th></tr>
+							<tr><th>Red 1</th><td></td><td></td></tr>
+							<tr><th>Red 2</th><td></td><td></td></tr>
+						</table>' align="middle" width="228" height="118" frameborder="0" scrolling="no">
+		</iframe>
+		raspoređuje u odnosu na susedni tekst.
+        <br /><br /><hr /><br />
+		<img align="left" src="https://lh3.googleusercontent.com/d/15C8swW1hqTjRVDqUanKZsFVrL5nKh1ed" height="200" />
+		Ovako se levo plutajući element raspoređuje u odnosu na susedni tekst i susedne HTML elemente (kako linijske tako i blok elemente). Kaže se da susedni tekst i susedni HTML elementi teku oko levo plutajućeg elementa.
+        <br /><br /><br /><br /><br /><br /><br /><hr /><br />
+		<table width="212" align="right" border="2" bgcolor="Tan" cellpadding="5">
+		    <tr><th></th><th>Kol 1</th><th>Kol 2</th></tr>
+		    <tr><th>Red 1</th><td></td><td></td></tr>
+			<tr><th>Red 2</th><td></td><td></td></tr>
+		</table>		
+		Ovako se desno plutajući element raspoređuje u odnosu na susedni tekst i susedne HTML elemente (kako linijske tako i blok elemente). Kaže se da susedni tekst i susedni HTML elementi teku oko desno plutajućeg elementa.
+        <br /><br /><br /><br /><hr /><br />
+    </font></body>
+</html>
